@@ -16,7 +16,7 @@ The SA-GAT-SR architecture can be divided into four steps. The data acquisition 
 
 ### The GNN module (SA-GAT) details
 
-![GNN module details](imgs/gnn.png)
+![GNN module details](imgs/GNN.png)
 
 The architecture of the GNN module is composed by two module, GNN and SR. In the self-adaptable encoding (SAE) algorithm of GNN module, the raw feature vector consists of scalar properties associated with atoms and unit cells from the crystal structure. The SAE assigns a weight to each characteristic and generates the initial feature vector. The blue and orange circles represent atomic and global node features, respectively. The message-passing layers include stacked node update modules, as illustrated, allowing iterative updating of feature vectors through the GNN architecture.
 
