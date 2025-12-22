@@ -2,7 +2,7 @@
 
 The repository implements the Self-Adaptable Graph Attention Networks with Symbolic Regression (SA-GAT-SR) in the following paper
 
-> [Liu, J., Tang, Y., Tretiak, S., Duan, W., and Zhou, L. SA-GAT-SR: Self-Adaptable Graph Attention Networks with Symbolic Regression for high-fidelity material property prediction. arXiv preprint arXiv:2505.00625, 2025.][22]
+> [Liu, J., Tang, Y., Tretiak, S. et al. SA-GAT-SR: self-adaptable graph attention networks with symbolic regression for high-fidelity material property prediction. npj Comput Mater 11, 377 (2025). https://doi.org/10.1038/s41524-025-01854-5][22]
 
 A novel computational paradigm—Self-Adaptable Graph Attention Networks integrated with Symbolic Regression (SA-GAT-SR)—that synergistically combines the predictive capability of GNNs with the interpretative power of symbolic regression. Our framework can automatically identifies and adjust attention weights so as to screen critical features from an expansive 180-dimensional feature space and achieving 23× acceleration compared to conventional SR implementations that heavily rely on first principle calculations-derived features as input.
 
@@ -65,4 +65,4 @@ You can run the `post_process.py` to extract the ICs of each features derived by
 
 [11]: https://www.anaconda.com/docs/main
 
-[22]: https://doi.org/10.48550/arXiv.2505.00625
+[22]: https://www.nature.com/articles/s41524-025-01854-5
